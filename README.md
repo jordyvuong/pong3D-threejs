@@ -17,12 +17,10 @@ Ce projet est une implémentation du célèbre jeu Pong, développé avec Three.
 1. Clonez le dépôt sur votre machine locale :
    ```bash
    git clone https://github.com/votre-nom/utilisateur/pong-game.git
-   ```
 
 	2.	Installez les dépendances :
 ```bash
 npm install
-```
 
 	3.	Lancez votre serveur local (npm run dev).
 
