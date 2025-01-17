@@ -17,29 +17,24 @@ Ce projet est une implémentation du célèbre jeu Pong, développé avec Three.
 1. Clonez le dépôt sur votre machine locale :
    ```bash
    git clone https://github.com/votre-nom/utilisateur/pong-game.git
+   ```
 
 	2.	Installez les dépendances :
-
+```bash
 npm install
-
+```
 
 	3.	Lancez votre serveur local (npm run dev).
 
-Utilisation
+## Utilisation
 	1.	Ouvrez votre navigateur et accédez à localhost:8080 ou l’adresse correspondant à votre serveur local.
 	2.	Utilisez les touches z et s pour déplacer la raquette du joueur 1 (à gauche).
 	3.	Utilisez les touches flèche haut et flèche bas pour déplacer la raquette du joueur 2 (à droite).
 	4.	Lorsque l’un des joueurs marque un point, la balle est réinitialisée et le score mis à jour.
 	5.	Le jeu se termine lorsque l’un des joueurs atteint le score maximum (par défaut 5 points). Appuyez sur Enter pour recommencer.
 
-Technologies utilisées
+## Technologies utilisées
 	•	Three.js : bibliothèque JavaScript pour le rendu 3D.
 	•	GLTFLoader : charge les modèles 3D au format GLTF pour la balle.
 	•	OBJLoader : charge les modèles 3D des raquettes au format OBJ.
 	•	MTLLoader : charge les matériaux associés aux modèles OBJ.
-
-Développement
-	•	Clonez ce projet sur votre machine locale.
-	•	Ouvrez le projet dans un éditeur de code (comme VS Code).
-	•	Lancez le serveur local.
-	•	Modifiez les modèles 3D, textures et paramètres du jeu selon vos besoins.
