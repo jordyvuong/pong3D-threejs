@@ -11,7 +11,6 @@ Ce projet est une implémentation du célèbre jeu Pong, développé avec Three.
 - Lorsque l'un des joueurs atteint un score limite (défini par défaut à 5), le jeu affiche un message de victoire et permet de recommencer en appuyant sur la touche `Enter`.
 
 ## Prérequis
-- Avoir un serveur local pour héberger les fichiers du jeu (par exemple, utiliser `Live Server` dans VS Code ou un serveur web local comme `http-server`).
 - Un navigateur moderne (Chrome, Firefox, Safari, etc.).
 
 ## Installation
@@ -20,11 +19,11 @@ Ce projet est une implémentation du célèbre jeu Pong, développé avec Three.
    git clone https://github.com/votre-nom/utilisateur/pong-game.git
 
 	2.	Installez les dépendances :
-
+ ```bash
 npm install
 
 
-	3.	Lancez votre serveur local (par exemple avec Live Server ou http-server).
+	3.	Lancez votre serveur local (npm run dev)
 
 Utilisation
 	1.	Ouvrez votre navigateur et accédez à localhost:8080 ou l’adresse correspondant à votre serveur local.
