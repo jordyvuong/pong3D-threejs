@@ -1,5 +1,3 @@
-Voici le README avec les balises Markdown visibles pour que vous puissiez le copier et coller directement dans votre fichier README.md :
-
 # Pong Game
 
 ## Description
