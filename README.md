@@ -22,7 +22,7 @@ Ce projet est une implémentation du célèbre jeu Pong, développé avec Three.
 	2.	Installez les dépendances :
 ```bash
 npm install
-```
+
 
 	3.	Lancez votre serveur local (npm run dev).
 
